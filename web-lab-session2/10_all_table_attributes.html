@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice of All Table Attributes</title>
+</head>
+<body>
+  <h2 align="center">BHARATI VIDYAPEETH (DEEMED TO BE) UNIVERSITY</h2>
+  <h3 align="center">INSTITUTE OF MANAGEMENT AND ENTREPRENEURSHIP DEVELOPMENT</h3>
+  <h4 align="center">Subject: Client-Side Web Technologies</h4>
+  <hr>
+  <h3>Lab Session 2: Practice of All Table Attributes</h3>
+
+  <table border="2" width="80%" align="center" bgcolor="#f2f2f2"
+         cellpadding="10" cellspacing="4" bordercolor="blue">
+    <caption><b>Marks Report (all table tags and attributes)</b></caption>
+    <colgroup>
+      <col span="1" style="background-color:#e6f2ff">
+      <col span="3">
+    </colgroup>
+    <thead bgcolor="#cce5ff">
+      <tr><th>Name</th><th>Subject</th><th>Marks</th><th>Result</th></tr>
+    </thead>
+    <tbody>
+      <tr align="center" valign="middle">
+        <td>Amit</td><td>Web Tech</td><td>85</td><td bgcolor="#c6efce">Pass</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">Neha</td><td>Web Tech</td><td>92</td><td bgcolor="#c6efce">Pass</td>
+      </tr>
+      <tr align="center">
+        <td>Python</td><td>30</td><td bgcolor="#ffc7ce">Fail</td>
+      </tr>
+    </tbody>
+    <tfoot bgcolor="#ffe699">
+      <tr><td colspan="2" align="right"><b>Total</b></td><td align="center"><b>207</b></td><td></td></tr>
+    </tfoot>
+  </table>
+</body>
+</html>

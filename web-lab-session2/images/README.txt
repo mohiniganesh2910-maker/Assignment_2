@@ -1,0 +1,1 @@
+Put your image here as photo.jpg (used in 09_image_and_link_in_table.html)
